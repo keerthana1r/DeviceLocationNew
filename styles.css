@@ -1,0 +1,77 @@
+#map {
+    height: 100%;
+    width: 100%;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #location-control {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-image: url("location-icon.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* backdrop-filter: blur(5px); */
+    font-weight: bold;
+  }
+  
+  .title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .emergency-button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .emergency-button-d {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    visibility: hidden;
+    display: inline-block;
+    opacity: 0;
+  }
+  
+  .emergency-button:hover {
+    background-color: #e53935;
+  }
+  
+  
+  
+  

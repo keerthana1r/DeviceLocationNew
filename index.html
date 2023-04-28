@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Maps API Webapp</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBE-tC_F9QFt-Zu5JgpMhKMJ1ro8InvnZI&callback=initMap&libraries=places"
+  async defer></script>
+  <script src="script.js" async defer></script>
+</head>
+<body>
+  <div class="header">
+    <div class="emergency-button-d">Emergency Support</div>
+    <div class="title">AED Finder</div>
+    <button class="emergency-button" onclick="initiateEmergencyCall()">Emergency Support</button>
+  </div>
+  <div id="map"></div>
+  <script>
+    function initiateEmergencyCall() {
+      window.location.href = 'tel:1234567890';
+    }
+  </script>
+</body>
+</html>
